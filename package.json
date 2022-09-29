@@ -1,14 +1,17 @@
 {
   "name": "apiconcessionaria",
   "version": "1.0.0",
-  "description": "",
+  "description": "APIREST para gestão de Concessionária.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
-  "author": "",
+  "author": "Maíra Terra",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.23.2"
   }
 }

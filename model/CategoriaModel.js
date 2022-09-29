@@ -14,7 +14,7 @@ PARAMETROS:
 const Categoria = connection.define(
     'tbl_categoria',
     {
-        nome_categoriacol:{
+        nome_categoria:{
             type: Sequelize.STRING(100),
             allowNull: false
         }
